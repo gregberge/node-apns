@@ -1,0 +1,20 @@
+{
+   "name": "apns",
+   "description": "APNS (Apple Push Notification Service) interface written in node.js",
+   "version": "0.1",
+   "keywords": ["apple", "push", "notification", "iOS", "apns"],
+   "author": "Bergé Greg <berge.greg@gmail.com> (http://www.neoziro.com/)",
+   "main": "./index",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/neoziro/node-apns.git"
+   },
+   "bugs": {
+      "email": "berge.greg@gmail.com",
+      "url": "https://github.com/neoziro/node-apns/issues"
+   },
+   "engines": {
+      "node": ">=0.6.5"
+   },
+   "license": "MIT"
+}
