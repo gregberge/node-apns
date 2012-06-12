@@ -13,6 +13,9 @@
       "email": "berge.greg@gmail.com",
       "url": "https://github.com/neoziro/node-apns/issues"
    },
+   "dependencies" : {
+      "q" : ">=0.8.5"
+   },
    "engines": {
       "node": ">=0.6.5"
    },
