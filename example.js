@@ -2,7 +2,8 @@ var apns = require("./index");
 
 var options = {
    keyFile : "conf/key.pem",
-   certFile : "conf/cert.pem"
+   certFile : "conf/cert.pem",
+   debug : true
 };
 
 var connection = new apns.Connection(options);
