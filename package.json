@@ -1,7 +1,7 @@
 {
    "name": "apns",
    "description": "APNS (Apple Push Notification Service) interface written in node.js",
-   "version": "0.1",
+   "version": "0.1.0",
    "keywords": ["apple", "push", "notification", "iOS", "apns"],
    "author": "Bergé Greg <berge.greg@gmail.com> (http://www.neoziro.com/)",
    "main": "./index",
