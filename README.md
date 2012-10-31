@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/neoziro/node-apns.png)](http://travis-ci.org/neoziro/node-apns)
 node-apns
 =========
 
