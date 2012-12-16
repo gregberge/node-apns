@@ -157,14 +157,19 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+Where is it used ?
+==================
+
+This package is used on [Le Monde](http://www.lemonde.fr/) platform, the first newspaper in France. Several millions of notifications are sent in a couple of minutes thanks to this module.
+
 Credits
 =======
 
 Written and maintained by [Greg Bergé][neoziro].
 
-Largely inspired by [node-apn][node-apn].
+Previously i used [node-apn][node-apn], but it revealed that it was not stable in case of big volumes, so i fork it, and finally I modified the code a lot, so I decided to create a more resilient module.
 
-Previously i used node-apn, but it revealed that it was not stable in case of big volumes, so i fork it, and finally I modified the code a lot, so I decided to create a more resilient module.
+Since 1.2, [node-apn][node-apn] was completely rewritten based on this fork.
 
 [neoziro]: http://github.com/neoziro
 [node-apn]: https://github.com/argon/node-apn
